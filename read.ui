@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>read</class>
+ <widget class="QDialog" name="read">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1306</width>
+    <height>773</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>120</y>
+     <width>891</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string/>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Nouvelle ligne</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NOM</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PRENOM</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NUM_TEL</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DEPARTMENT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DISPONIBILITE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>EMAIL</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MOT DE PASSE</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>1291</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(76, 154, 12);
+border-radius: 40px;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>80</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>User_list</string>
+   </property>
+  </widget>
+  <zorder>graphicsView_3</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
